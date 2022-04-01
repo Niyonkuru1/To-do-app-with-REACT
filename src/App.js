@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import TitleHead from './components/TitleHead';
+// import InputForm from './components/InputForm';
+// import ButtonComp from './components/ButtonComp';
+// import DeleteButton from './components/DeleteButton';
+// import CompleteButton from './components/CompleteButton';
+// import ContentComp from './components/ContentComp';
+// import DeleteAndComplete from './components/DeleteAndComplete';
+// import CombinedInputs from './components/CombinedInputs';
+import Form from './components/Form';
+import Card from './components/Card';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <TitleHead>
+      </TitleHead>
+    <Form></Form>
+    <Card></Card>
+
+      {/* <InputForm></InputForm>
+      <CombinedInputs></CombinedInputs>
+      <ButtonComp>
+      </ButtonComp>
+      <DeleteButton>
+      </DeleteButton>
+      <CompleteButton>
+      </CompleteButton>
+      <ContentComp></ContentComp>
+      <DeleteAndComplete></DeleteAndComplete> */}
     </div>
   );
 }
