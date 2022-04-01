@@ -1,0 +1,5 @@
+.inputCom{
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+}

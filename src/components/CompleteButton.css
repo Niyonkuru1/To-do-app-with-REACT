@@ -1,0 +1,7 @@
+.addComplete {
+    background-color: white;
+    color: rgb(34, 159, 88);
+    padding: .4em 1em;
+    border-radius: 1.5em;
+    border: 2px rgb(15, 105, 74) solid;
+}

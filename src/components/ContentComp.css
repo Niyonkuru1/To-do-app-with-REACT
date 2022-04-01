@@ -1,0 +1,14 @@
+.content{
+    /* background-color: rgb(181, 0, 175); */
+}
+
+ h2{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    color: chocolate;
+}
+p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

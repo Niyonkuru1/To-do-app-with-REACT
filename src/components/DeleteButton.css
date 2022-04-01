@@ -1,0 +1,7 @@
+.addDelete {
+    background-color: white;
+    color: red;
+    padding: .4em 1em;
+    border-radius: 1.5em;
+    border: 2px rgb(160, 53, 53) solid;
+}

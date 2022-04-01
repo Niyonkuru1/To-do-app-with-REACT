@@ -1,0 +1,10 @@
+.form-style{
+    display: flex;
+    width:100%;
+    padding: 1em;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
