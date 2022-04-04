@@ -10,7 +10,7 @@ const RenderCard = (props) => {
     }
 
   return (
-    <div className="render-style">
+    <>
       {
         arra.map((Item) => {
         return (
@@ -23,7 +23,7 @@ const RenderCard = (props) => {
           />
         );
       })}
-    </div>
+    </>
   );
 }
 
