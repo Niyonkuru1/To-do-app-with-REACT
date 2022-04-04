@@ -1,10 +1,10 @@
 import React from 'react';
 // import DeleteAndComplete from './DeleteAndComplete'
 // import ContentComp from './ContentComp';
-import "./DeleteButton.css";
-import "./CompleteButton.css";
-import "./DeleteAndComplete.css";
-import "./ContentComp.css";
+import "./sideStyles/DeleteButton.css";
+import "./sideStyles/CompleteButton.css";
+import "./sideStyles/DeleteAndComplete.css";
+import "./sideStyles/ContentComp.css";
 import "./Card.css"
 import { useState } from "react";
 

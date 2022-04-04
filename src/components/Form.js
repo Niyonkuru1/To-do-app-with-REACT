@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import nextId from "react-id-generator";
-import "./InputForm.css";
-import "./CombinedInputs.css";
-import "./ButtonComp.css";
+import "./sideStyles/InputForm.css";
+import "./sideStyles/CombinedInputs.css";
+import "./sideStyles/ButtonComp.css";
 import "./Form.css";
 
 const Form = (props) => {
