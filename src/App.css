@@ -1,13 +1,13 @@
 .container{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(37, 37, 37);
-    width: 700px;
+    width: 43.75rem;
     height: fit-content;
      margin: auto;
     padding-right: 7em;
     padding-left: 7em;
     color: white;
-    
+
     border-radius: 20px;
     display: grid;
     justify-items: center;

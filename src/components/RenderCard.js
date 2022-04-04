@@ -4,7 +4,7 @@ import Card from "./Card";
 
 
 const RenderCard = (props) => {
-    var arra = props.arrayItems;
+    const arra = props.arrayItems;
     const captureIdToDelete = (id) =>{
         props.obtainId(id);
     }
@@ -12,6 +12,7 @@ const RenderCard = (props) => {
   return (
     <>
       {
+        arra.length === 0 ? <h2>You have no todos yet !!</h2> : 
         arra.map((Item) => {
         return (
           <Card
