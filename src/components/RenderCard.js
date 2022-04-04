@@ -1,15 +1,10 @@
 import React from 'react';
 import "./Card.css";
-// import useCard from './useCard';
 import Card from "./Card";
-// import { useState } from "react";
 
 
 const RenderCard = (props) => {
-    // const [idi,setIdi] = useState(null);
-    // console.log(props.arrayProducts)
-    var arra = props.arrayProducts;
-    // const [arra, setArra] = useState(props.arrayProducts);
+    var arra = props.arrayItems;
     const captureIdToDelete = (id) =>{
         props.obtainId(id);
     }
@@ -17,13 +12,13 @@ const RenderCard = (props) => {
   return (
     <div className="render-style">
       {
-        arra.map((product) => {
+        arra.map((Item) => {
         return (
           <Card
-            key={product.id}
-            id={product.id}
-            date={product.date}
-            producti={product.product}
+            key={Item.id}
+            id={Item.id}
+            description={Item.description}
+            name={Item.name}
             captureId={captureIdToDelete}
           />
         );

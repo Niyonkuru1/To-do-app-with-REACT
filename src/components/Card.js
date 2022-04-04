@@ -11,25 +11,15 @@ import { useState } from "react";
 const Card = (props) => {
   let strike = 'content';
   let addRemove = "addComplete";
-  // let idToDelete = null;
   const [strikeThrough, setStrikeThrough] = useState(false);
-  // const[removeCard, setRemoveCard] = useState(false);
 const toggleClassHandler = ()=>{
   setStrikeThrough(true);
 }
 
 const sendIdToDeleteButton = ()=>{
-  // setRemoveCard(true);
    props.captureId(props.id);
 
 }
-//  if (removeCard) {
-//  } else {
-//    props.captureId(idToDelete);
-//  }
-// console.log(idToDelete)
-
-
 
 if (strikeThrough) {
   strike = "content content-style";
@@ -38,8 +28,8 @@ if (strikeThrough) {
   return (
     <div className="card-actions">
       <div className= {strike}>
-        <h2>{props.producti}</h2>
-        <p>{props.date}</p>
+        <h2>{props.name}</h2>
+        <p>{props.description}</p>
       </div>
       <div className="actions">
         <div>

@@ -1,11 +1,8 @@
 import React, {useState} from 'react'
-// import CombinedInputs from './CombinedInputs'
-// import ButtonComp from './ButtonComp';
 import nextId from "react-id-generator";
 import "./InputForm.css";
 import "./CombinedInputs.css";
 import "./ButtonComp.css";
-
 import "./Form.css";
 
 const Form = (props) => {
@@ -13,11 +10,9 @@ const [name, setName] = useState(" ");
 const [description, setDescription] = useState(" ");
 
 const nameDataHandler = (event) => {
-  // console.log(event.target.value);
   setName(event.target.value);
 };
 const descriptionDataHandler = (event) => {
-  // console.log(event.target.value);
   setDescription(event.target.value);
 };
 
@@ -25,16 +20,12 @@ const descriptionDataHandler = (event) => {
     event.preventDefault();
     props.onDataSaved({
       id: nextId(),
-      product: name,
-      date: description,
+      name: name,
+      description: description,
     });
-    // console.log(products);
 
-    // Resetting the form to be empty again
     setName("");
     setDescription("");
-
-    // console.log(products);
   };
   return (
     <form className="form-style">
