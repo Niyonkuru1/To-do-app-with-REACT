@@ -1,3 +1,7 @@
+.render-style{
+    width: 100%;
+    margin: auto;
+}
 .card-actions {
     display: flex;
     width:100%;
@@ -5,4 +9,10 @@
     justify-content: space-between;
     background-color: rgb(44, 44, 44);
     align-items: center;
+    border-bottom: 2px rgb(37, 37, 37) solid;
+}
+
+.content-style{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.196);
 }

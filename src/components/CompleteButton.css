@@ -5,3 +5,7 @@
     border-radius: 1.5em;
     border: 2px rgb(15, 105, 74) solid;
 }
+
+.removeComplete{
+    display: none;
+}
